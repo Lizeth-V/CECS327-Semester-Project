@@ -1,5 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://b0gy6g47nr5bg"]
+[gd_scene load_steps=6 format=3 uid="uid://b0gy6g47nr5bg"]
 
+[ext_resource type="Texture2D" uid="uid://buns1xixwqddq" path="res://Art/Free/Background/Purple.png" id="1_5tvpx"]
 [ext_resource type="Texture2D" uid="uid://b8f1tnc6a5s5n" path="res://Art/Free/Terrain/Terrain (16x16).png" id="1_og3fd"]
 [ext_resource type="PackedScene" uid="uid://noxpmq16qtqa" path="res://Characters/player.tscn" id="2_1em2i"]
 
@@ -452,6 +453,20 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_dmfp5")
 
 [node name="Level1" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = -301.0
+offset_right = 623.0
+offset_bottom = 45.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_5tvpx")
+stretch_mode = 1
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_aky5e")
