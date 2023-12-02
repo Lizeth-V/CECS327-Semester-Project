@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701488597
+::res://::1701492816
 icon.svg::CompressedTexture2D::2362632494763902746::1701198021::1701198023::1::::<><>::
 README.md::TextFile::-1::1701202881::0::1::::<><>::
 ::res://Art/::1701198089
@@ -215,8 +215,8 @@ Idle.png::CompressedTexture2D::4444906615243646752::1569431424::1701198097::1:::
 ::res://Art/Free/Traps/Trampoline/::1701198097
 Idle.png::CompressedTexture2D::4413461482831440241::1569223764::1701198097::1::::<><>::
 Jump (28x28).png::CompressedTexture2D::3856541970474851466::1569223752::1701198097::1::::<><>::
-::res://Characters/::1701488567
-player.gd::GDScript::-1::1701488567::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::942780189813931164::1701488567::0::1::::<><>::res://Characters/player.gd<>uid://cqfwl57j5xunp::::res://Art/Free/Main Characters/Ninja Frog/Idle (32x32).png<>uid://bus3pprq0ehb4::::res://Art/Free/Main Characters/Ninja Frog/Fall (32x32).png<>uid://bb73lqe0u15h3::::res://Art/Free/Main Characters/Ninja Frog/Double Jump (32x32).png<>uid://dyvi2frtkbp7f::::res://Art/Free/Main Characters/Ninja Frog/Jump (32x32).png<>uid://yt5onll4786d::::res://Art/Free/Main Characters/Ninja Frog/Run (32x32).png<>uid://7tli7rojll3n::::res://Art/Free/Main Characters/Ninja Frog/Wall Jump (32x32).png
-::res://Levels/::1701488567
-level_1.tscn::PackedScene::4155040970017153976::1701488567::0::1::::<><>::uid://buns1xixwqddq::::res://Art/Free/Background/Purple.png<>uid://b8f1tnc6a5s5n::::res://Art/Free/Terrain/Terrain (16x16).png<>uid://noxpmq16qtqa::::res://Characters/player.tscn
+::res://Characters/::1701490417
+player.gd::GDScript::-1::1701489920::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::942780189813931164::1701490417::0::1::::<><>::res://Characters/player.gd<>uid://cqfwl57j5xunp::::res://Art/Free/Main Characters/Ninja Frog/Idle (32x32).png<>uid://bus3pprq0ehb4::::res://Art/Free/Main Characters/Ninja Frog/Fall (32x32).png<>uid://bb73lqe0u15h3::::res://Art/Free/Main Characters/Ninja Frog/Double Jump (32x32).png<>uid://dyvi2frtkbp7f::::res://Art/Free/Main Characters/Ninja Frog/Jump (32x32).png<>uid://yt5onll4786d::::res://Art/Free/Main Characters/Ninja Frog/Run (32x32).png<>uid://7tli7rojll3n::::res://Art/Free/Main Characters/Ninja Frog/Wall Jump (32x32).png
+::res://Levels/::1701489921
+level_1.tscn::PackedScene::4155040970017153976::1701489921::0::1::::<><>::uid://buns1xixwqddq::::res://Art/Free/Background/Purple.png<>uid://b8f1tnc6a5s5n::::res://Art/Free/Terrain/Terrain (16x16).png<>uid://noxpmq16qtqa::::res://Characters/player.tscn
