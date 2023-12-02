@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://b0gy6g47nr5bg"]
+[gd_scene load_steps=7 format=3 uid="uid://b0gy6g47nr5bg"]
 
 [ext_resource type="Texture2D" uid="uid://buns1xixwqddq" path="res://Art/Free/Background/Purple.png" id="1_5tvpx"]
 [ext_resource type="Texture2D" uid="uid://b8f1tnc6a5s5n" path="res://Art/Free/Terrain/Terrain (16x16).png" id="1_og3fd"]
 [ext_resource type="PackedScene" uid="uid://noxpmq16qtqa" path="res://Characters/player.tscn" id="2_1em2i"]
+[ext_resource type="PackedScene" uid="uid://dvkc3wm3a6cgk" path="res://Characters/player_2.tscn" id="4_11iil"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dmfp5"]
 texture = ExtResource("1_og3fd")
@@ -497,3 +498,6 @@ layer_0/tile_data = PackedInt32Array(-1900545, 786432, 5, -1835009, 983040, 4, -
 
 [node name="Player" parent="." instance=ExtResource("2_1em2i")]
 position = Vector2(-78, 128)
+
+[node name="player2" parent="." instance=ExtResource("4_11iil")]
+position = Vector2(414, 128)
