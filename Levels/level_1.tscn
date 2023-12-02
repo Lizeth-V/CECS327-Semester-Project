@@ -471,8 +471,6 @@ sources/0 = SubResource("TileSetAtlasSource_dmfp5")
 
 [node name="Level1" type="Node2D"]
 position = Vector2(167, 337)
-metadata/_edit_vertical_guides_ = [664.0]
-metadata/_edit_horizontal_guides_ = [537.0]
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 1
