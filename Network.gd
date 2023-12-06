@@ -20,8 +20,10 @@ func _ready() -> void:
 		if ip.begins_with("192.168."):
 			ip_address = ip
 			
-	server.peer_connected.connect("_connected_to_server")
-	server.peer_disconnected.connect("_server_disconnected")
+	get_tree().connect("connected_to_server",self,"_connected_to_server")
+	get_tree().connect("server_disconnected",self, "_server_disconnected")
+	#server.peer_connected.connect("_connected_to_server")
+	#server.peer_disconnected.connect("_server_disconnected")
 
 func create_server() -> void:
 	server = ENetMultiplayerPeer.new()

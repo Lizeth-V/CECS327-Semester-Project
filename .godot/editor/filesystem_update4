@@ -1,5 +1,6 @@
-res://Levels/level_1.tscn
+res://Network_setup.gd
+res://network__setup.tscn
 res://Characters/player.tscn
-res://Characters/player.gd
+res://Levels/level_1.tscn
 res://Characters/player_2.tscn
-res://Characters/player_2.gd
+res://Network.gd
