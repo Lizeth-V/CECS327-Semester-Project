@@ -1,6 +1,4 @@
-res://Levels/level_1.gd
-res://Levels/level_1.tscn
-res://Multiplayer.gd
 res://Characters/player.tscn
-res://multiplayer.tscn
+res://Levels/level_1.tscn
 res://Characters/player_2.tscn
+res://Levels/level_1.gd

@@ -5,14 +5,14 @@ var peer = ENetMultiplayerPeer.new()
 
 
 func _on_host_pressed():
-	peer.create_server(135) #or 6005?
+	peer.create_server(123) 
 	multiplayer.multiplayer_peer = peer
 	multiplayer.peer_connected.connect(_add_player)
 	_add_player()
 
 
 func _on_join_pressed():
-	peer.create_client("localhost", 135)
+	peer.create_client("localhost", 123)
 	multiplayer.multiplayer_peer = peer
 
 
