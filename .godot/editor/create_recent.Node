@@ -1,7 +1,9 @@
+MultiplayerSynchronizer
+MultiplayerSpawner
+Button
 Label
 CanvasLayer
 LineEdit
-Button
 Control
 CollisionShape2D
 AnimatedSprite2D

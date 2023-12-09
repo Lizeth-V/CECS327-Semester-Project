@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=3 uid="uid://noxpmq16qtqa"]
+[gd_scene load_steps=45 format=3 uid="uid://noxpmq16qtqa"]
 
 [ext_resource type="Script" path="res://Characters/player.gd" id="1_ayami"]
 [ext_resource type="Texture2D" uid="uid://cqfwl57j5xunp" path="res://Art/Free/Main Characters/Ninja Frog/Idle (32x32).png" id="1_jgt1s"]
@@ -288,6 +288,12 @@ animations = [{
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ecwe4"]
 height = 24.0
 
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_xaopt"]
+properties/0/path = NodePath(".:position")
+properties/0/spawn = true
+properties/0/sync = true
+properties/0/watch = false
+
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_ayami")
 
@@ -300,3 +306,6 @@ frame_progress = 0.634554
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 4)
 shape = SubResource("CapsuleShape2D_ecwe4")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_xaopt")

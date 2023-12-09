@@ -1,6 +1,10 @@
-res://Network_setup.gd
+res://Multiplayer.gd
+res://Characters/player.gd
 res://network__setup.tscn
-res://Characters/player.tscn
-res://Levels/level_1.tscn
-res://Characters/player_2.tscn
 res://Network.gd
+res://Network_setup.gd
+res://Characters/player.tscn
+res://Characters/player_2.tscn
+res://README.md
+res://multiplayer.tscn
+res://Levels/level_1.tscn
