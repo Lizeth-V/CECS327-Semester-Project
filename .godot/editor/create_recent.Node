@@ -1,6 +1,7 @@
-MultiplayerSynchronizer
 MultiplayerSpawner
 Button
+TileMap
+MultiplayerSynchronizer
 Label
 CanvasLayer
 LineEdit
@@ -11,4 +12,3 @@ CharacterBody2D
 Camera2D
 TextureRect
 RemoteTransform2D
-TileMap
