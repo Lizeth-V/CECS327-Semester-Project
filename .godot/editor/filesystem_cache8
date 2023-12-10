@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1702179431
-export_presets.cfg::TextFile::-1::1702178694::0::1::::<><>::
+::res://::1702183624
+export_presets.cfg::TextFile::-1::1702183292::0::1::::<><>::
 icon.svg::CompressedTexture2D::2362632494763902746::1701227002::1701227002::1::::<><>::
 README.md::TextFile::-1::1702151571::0::1::::<><>::
 ::res://Art/::1701227002
@@ -216,16 +216,16 @@ Idle.png::CompressedTexture2D::4444906615243646752::1701227002::1701227002::1:::
 ::res://Art/Free/Traps/Trampoline/::1701227002
 Idle.png::CompressedTexture2D::4413461482831440241::1701227002::1701227002::1::::<><>::
 Jump (28x28).png::CompressedTexture2D::3856541970474851466::1701227002::1701227002::1::::<><>::
-::res://Characters/::1702162488
+::res://Characters/::1702183305
 player.gd::GDScript::-1::1702160596::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::942780189813931164::1702162488::0::1::::<><>::res://Characters/player.gd<>uid://cqfwl57j5xunp::::res://Art/Free/Main Characters/Ninja Frog/Idle (32x32).png<>uid://bus3pprq0ehb4::::res://Art/Free/Main Characters/Ninja Frog/Fall (32x32).png<>uid://bb73lqe0u15h3::::res://Art/Free/Main Characters/Ninja Frog/Double Jump (32x32).png<>uid://dyvi2frtkbp7f::::res://Art/Free/Main Characters/Ninja Frog/Jump (32x32).png<>uid://yt5onll4786d::::res://Art/Free/Main Characters/Ninja Frog/Run (32x32).png<>uid://7tli7rojll3n::::res://Art/Free/Main Characters/Ninja Frog/Wall Jump (32x32).png
-player_2.tscn::PackedScene::8654044156558219990::1702160643::0::1::::<><>::uid://bh2xe54xd24ik::::res://Art/Free/Main Characters/Pink Man/Double Jump (32x32).png<>res://Characters/player.gd<>uid://nk2os0wue03p::::res://Art/Free/Main Characters/Pink Man/Idle (32x32).png<>uid://byow6c0u0wqgi::::res://Art/Free/Main Characters/Pink Man/Fall (32x32).png<>uid://cpmp61bfud40a::::res://Art/Free/Main Characters/Pink Man/Jump (32x32).png<>uid://bmunvby3ivvyg::::res://Art/Free/Main Characters/Pink Man/Run (32x32).png<>uid://p7bitjbuj4lu::::res://Art/Free/Main Characters/Pink Man/Wall Jump (32x32).png
-::res://Exports/::1702179418
-::res://Exports/web/::1702179430
-index.apple-touch-icon.png::CompressedTexture2D::3148953196412040174::1702179430::1702179471::1::::<><>::
-index.icon.png::CompressedTexture2D::6129168389274509428::1702179430::1702179471::1::::<><>::
-index.png::CompressedTexture2D::3388628324716491847::1702179430::1702179471::1::::<><>::
-::res://Levels/::1702162488
-level_1.gd::GDScript::-1::1702162488::0::1::::<>Node2D<>::
-level_1.tscn::PackedScene::4155040970017153976::1702160752::0::1::::<><>::uid://buns1xixwqddq::::res://Art/Free/Background/Purple.png<>res://Levels/level_1.gd<>uid://b8f1tnc6a5s5n::::res://Art/Free/Terrain/Terrain (16x16).png<>uid://noxpmq16qtqa::::res://Characters/player.tscn
+player.tscn::PackedScene::942780189813931164::1702183305::0::1::::<><>::res://Characters/player.gd<>uid://cqfwl57j5xunp::::res://Art/Free/Main Characters/Ninja Frog/Idle (32x32).png<>uid://bus3pprq0ehb4::::res://Art/Free/Main Characters/Ninja Frog/Fall (32x32).png<>uid://bb73lqe0u15h3::::res://Art/Free/Main Characters/Ninja Frog/Double Jump (32x32).png<>uid://dyvi2frtkbp7f::::res://Art/Free/Main Characters/Ninja Frog/Jump (32x32).png<>uid://yt5onll4786d::::res://Art/Free/Main Characters/Ninja Frog/Run (32x32).png<>uid://7tli7rojll3n::::res://Art/Free/Main Characters/Ninja Frog/Wall Jump (32x32).png
+player_2.tscn::PackedScene::8654044156558219990::1702183147::0::1::::<><>::uid://bh2xe54xd24ik::::res://Art/Free/Main Characters/Pink Man/Double Jump (32x32).png<>res://Characters/player.gd<>uid://nk2os0wue03p::::res://Art/Free/Main Characters/Pink Man/Idle (32x32).png<>uid://byow6c0u0wqgi::::res://Art/Free/Main Characters/Pink Man/Fall (32x32).png<>uid://cpmp61bfud40a::::res://Art/Free/Main Characters/Pink Man/Jump (32x32).png<>uid://bmunvby3ivvyg::::res://Art/Free/Main Characters/Pink Man/Run (32x32).png<>uid://p7bitjbuj4lu::::res://Art/Free/Main Characters/Pink Man/Wall Jump (32x32).png
+::res://Exports/::1702183345
+::res://Exports/web/::1702183495
+index.apple-touch-icon.png::CompressedTexture2D::7884537765830530622::1702183291::1702183495::1::::<><>::
+index.icon.png::CompressedTexture2D::3287714138058104050::1702183291::1702183495::1::::<><>::
+index.png::CompressedTexture2D::7957393501198410076::1702183291::1702183495::1::::<><>::
+::res://Levels/::1702183314
+level_1.gd::GDScript::-1::1702183213::0::1::::<>Node2D<>::
+level_1.tscn::PackedScene::4155040970017153976::1702183314::0::1::::<><>::uid://buns1xixwqddq::::res://Art/Free/Background/Purple.png<>res://Levels/level_1.gd<>uid://b8f1tnc6a5s5n::::res://Art/Free/Terrain/Terrain (16x16).png<>uid://noxpmq16qtqa::::res://Characters/player.tscn
 main.tscn::PackedScene::7455535470345811171::1702156619::0::1::::<><>::res://main.gd<>uid://noxpmq16qtqa

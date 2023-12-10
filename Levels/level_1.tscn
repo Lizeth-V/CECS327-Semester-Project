@@ -474,8 +474,8 @@ sources/0 = SubResource("TileSetAtlasSource_dmfp5")
 position = Vector2(163, 333)
 script = ExtResource("1_igr8b")
 player_scene = ExtResource("2_1em2i")
-metadata/_edit_vertical_guides_ = [88.0]
-metadata/_edit_horizontal_guides_ = [449.0]
+metadata/_edit_vertical_guides_ = [658.0]
+metadata/_edit_horizontal_guides_ = [529.0]
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 1
