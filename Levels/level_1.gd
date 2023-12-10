@@ -19,6 +19,7 @@ func _on_join_pressed():
 func _add_player(id = 1):
 	var player = player_scene.instantiate()
 	player.name = str(id)
+	player.position = Vector2(-72, 133)
 	call_deferred("add_child", player)
 
 

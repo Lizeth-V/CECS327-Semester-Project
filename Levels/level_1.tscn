@@ -471,16 +471,19 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_dmfp5")
 
 [node name="Level1" type="Node2D"]
-position = Vector2(164, 334)
+position = Vector2(163, 333)
 script = ExtResource("1_igr8b")
 player_scene = ExtResource("2_1em2i")
+metadata/_edit_vertical_guides_ = [88.0]
+metadata/_edit_horizontal_guides_ = [449.0]
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 1
-offset_left = -143.0
-offset_top = -329.0
-offset_right = 478.0
-offset_bottom = 189.0
+offset_left = -144.0
+offset_top = -327.0
+offset_right = 477.0
+offset_bottom = 191.0
+size_flags_horizontal = 0
 texture = ExtResource("1_5tvpx")
 stretch_mode = 1
 metadata/_edit_use_anchors_ = true
@@ -498,6 +501,7 @@ offset_top = 152.0
 offset_right = 47.0
 offset_bottom = 183.0
 text = "Host"
+metadata/_edit_use_anchors_ = true
 
 [node name="join" type="Button" parent="."]
 offset_left = 260.0
@@ -505,6 +509,7 @@ offset_top = 154.0
 offset_right = 298.0
 offset_bottom = 185.0
 text = "Join"
+metadata/_edit_use_anchors_ = true
 
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
 _spawnable_scenes = PackedStringArray("res://Characters/player.tscn")
