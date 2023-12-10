@@ -17,6 +17,8 @@ Unfortuantley full multiplayer features of this game are unable to be used in br
 5. Run Project (2 windows should open) 
 6. Click Host on one of them and Click Join on the other
 
+*Note: Demo how game is being run with muliple instances can be seen in video link attached to this project submisson.*
+
 
 
  
